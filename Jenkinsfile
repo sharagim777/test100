@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages {
-        satge('Build'){
+        stage('Build'){
             steps{
                 sh 'echo "build complite."'
             }
